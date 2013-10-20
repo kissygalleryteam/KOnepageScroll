@@ -1,9 +1,15 @@
+/*
+combined files : 
+
+gallery/KOnepageScroll/1.0/index
+
+*/
 /**
  * @fileoverview 
  * @author 昊川<gonghao.gh@taobao.com>
  * @module KOnepageScroll
  **/
-KISSY.add(function (S, Node, Base) {
+KISSY.add('gallery/KOnepageScroll/1.0/index',function (S, Node, Base) {
     var EMPTY = '';
     var $ = Node.all,
         el,
@@ -58,9 +64,9 @@ KISSY.add(function (S, Node, Base) {
             });
 
             this.swipeEvents().on("swipeDown", function() {
-                self.moveUp();
+                this.moveUp();
             }).on("swipeUp", function() {
-                self.moveDown();
+                this.moveDown();
             });
 
             if (pagination) {
@@ -355,6 +361,7 @@ KISSY.add(function (S, Node, Base) {
         'sizzle'
     ]
 });
+
 
 
 

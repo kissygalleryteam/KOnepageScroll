@@ -76,7 +76,6 @@
 
     <script>
         var S = KISSY;
-        S.Config.debug = true;
         if (S.Config.debug) {
             var srcPath = "../../../";
             S.config({
@@ -94,9 +93,10 @@
         S.use('gallery/KOnepageScroll/1.0/index', function (S, KOnepageScroll) {
             new KOnepageScroll({
                 container: ".main",
-                sectionContainer: "section"
+                sectionContainer: "section",
+                loop: true
             });
-        })
+        });
     </script>
 </body>
 </html>
