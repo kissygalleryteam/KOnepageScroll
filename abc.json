@@ -1,0 +1,14 @@
+{
+    "name": "KOnepageScroll",
+    "version": "1.0",
+    "desc": "",
+    "cover": "",
+    "tag":"1.0",
+    "author": {
+        "name": "昊川",
+        "email": "gonghao.gh@taobao.com",
+        "page": ""
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
